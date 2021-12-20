@@ -8,8 +8,11 @@
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/drawable/ic_profile.xml" value="0.2203125" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />
-        <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/activity_menu.xml" value="0.31841652323580033" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/activity_splash.xml" value="0.12590579710144928" />
+        <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/fragment_categorias.xml" value="0.1" />
+        <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/fragment_inicio.xml" value="0.22" />
+        <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/fragment_perfil.xml" value="0.292259083728278" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/menu/main_menu.xml" value="0.16296296296296298" />
       </map>
     </option>
