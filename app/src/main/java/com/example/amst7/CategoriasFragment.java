@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,7 +25,7 @@ public class CategoriasFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    Button boton_ciencia;
     public CategoriasFragment() {
         // Required empty public constructor
     }
@@ -46,7 +47,7 @@ public class CategoriasFragment extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
+    //es un metodo para el fragmet
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,15 +56,17 @@ public class CategoriasFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
+    //es un metodo para el fragmet
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_categorias, container, false);
+
     }
+    //funciones para los botones que abren la clase categoria
     public void romance(View view){
-        Intent i = new Intent(getActivity(), MainActivity_Categoria.class);
+       Intent i = new Intent(getActivity(),MainActivity_Categoria.class);
         startActivity(i);
     }
     public void terror(View view){
