@@ -1,5 +1,6 @@
 package com.example.amst7;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -60,5 +61,21 @@ public class CategoriasFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_categorias, container, false);
+    }
+    public void romance(View view){
+        Intent i = new Intent(getActivity(), MainActivity_Categoria.class);
+        startActivity(i);
+    }
+    public void terror(View view){
+        Intent i = new Intent(getActivity(), MainActivity_Categoria.class);
+        startActivity(i);
+    }
+    public void juvenil(View view){
+        Intent i = new Intent(getActivity(), MainActivity_Categoria.class);
+        startActivity(i);
+    }
+    public void ciencia(View view){
+        Intent i = new Intent(getActivity(), MainActivity_Categoria.class);
+        startActivity(i);
     }
 }
