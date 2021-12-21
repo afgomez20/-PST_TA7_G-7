@@ -3,10 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/drawable/ic_categories.xml" value="0.2203125" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/drawable/ic_home.xml" value="0.2203125" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/drawable/ic_profile.xml" value="0.2203125" />
+=======
+        <entry key="..\:/Users/Luis/OneDrive/Escritorio/ESPOL/6TO SEMESTRE/PROGRAMACION DE SISTEMAS TELEMATICO/TAREAS/-PST_TA7_G-7/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Luis/OneDrive/Escritorio/ESPOL/6TO SEMESTRE/PROGRAMACION DE SISTEMAS TELEMATICO/TAREAS/-PST_TA7_G-7/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/Luis/OneDrive/Escritorio/ESPOL/6TO SEMESTRE/PROGRAMACION DE SISTEMAS TELEMATICO/TAREAS/-PST_TA7_G-7/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/Luis/OneDrive/Escritorio/ESPOL/6TO SEMESTRE/PROGRAMACION DE SISTEMAS TELEMATICO/TAREAS/-PST_TA7_G-7/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Luis/OneDrive/Escritorio/ESPOL/6TO SEMESTRE/PROGRAMACION DE SISTEMAS TELEMATICO/TAREAS/-PST_TA7_G-7/app/src/main/res/layout/fragment_categorias.xml" value="0.1" />
+        <entry key="..\:/Users/Luis/OneDrive/Escritorio/ESPOL/6TO SEMESTRE/PROGRAMACION DE SISTEMAS TELEMATICO/TAREAS/-PST_TA7_G-7/app/src/main/res/layout/fragment_inicio.xml" value="0.1" />
+        <entry key="..\:/Users/Luis/OneDrive/Escritorio/ESPOL/6TO SEMESTRE/PROGRAMACION DE SISTEMAS TELEMATICO/TAREAS/-PST_TA7_G-7/app/src/main/res/layout/fragment_perfil.xml" value="0.1" />
+>>>>>>> ad25566319f0d9c493630e921636ff0fb1f4a935
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/activity_menu.xml" value="0.31841652323580033" />
         <entry key="..\:/Users/User/workspace/PST_TA7/app/src/main/res/layout/activity_splash.xml" value="0.12590579710144928" />

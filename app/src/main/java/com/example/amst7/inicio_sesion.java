@@ -6,8 +6,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class inicio_sesion  {
+
+public class inicio_sesion extends AppCompatActivity {
     EditText usuario, contrasena;
     Button iniciar;
 
@@ -15,24 +17,28 @@ public class inicio_sesion  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inicio_sesion);
-        usuario = (EditText)findViewById(R.id.editTextUsuario);
+        usuario = (EditText)findViewById(R.id.editTextUsuario);//recibe dato ingresado en usuario
         contrasena = (EditText)findViewById(R.id.editTextContraseña);
 
 
-        iniciar=findViewByIZd(R.id.button);
-        iniciar.setOnClickListener(v ->){
+        iniciar=findViewById(R.id.button);
+        iniciar.setOnClickListener(v ->  {
             if(usuario.getText().toString().isEmpty()||contrasena.getText().toString().isEmpty()){
                 Toast.makeText(inicio_sesion.this, "Agregue Credenciales",Toast.LENGTH_LONG);
             }
-            if(usuario.getText().toString() != "LuisSanta17"){
+            if(usuario.getText().toString() != "LuisSanta17" ){
+                //comrpueba que el usuario ingresado es correcto
                 Toast.makeText(inicio_sesion.this,"Usuario Incorrecto",Toast.LENGTH_LONG);
 
             }
-            else{
-                Intent i=new Intent(this.MenuACTIVITY);
-                startActivity(i);
+            if(contrasena.getText().toString() != "12345"){
+                Toast.makeText(inicio_sesion.this,"Usuario Incorrecto",Toast.LENGTH_LONG);
             }
-        };
+            else{ //da paso a la nueva actividad al aplastar boton
+                Intent i=new Intent(this.MenuActivity.class);
+                startActivity(i);
+            };
+        });
 
 
 

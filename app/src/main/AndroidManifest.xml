@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST7">
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+<<<<<<< HEAD
+            android:name=".MainActivity2"
+
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -21,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+    </application><![CDATA[=======
+            android:name=".MenuActivity"
+>>>>>>> 4d4e71af3448e9d3cc0a45a211e7873d9a973e35
+            android:exported="false" />
+        ]]>
 
 </manifest>
