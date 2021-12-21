@@ -10,10 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST7">
         <activity
-            android:name=".MenuActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.AMST7.NoActionBar" />
+        <activity
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
