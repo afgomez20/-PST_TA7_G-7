@@ -25,6 +25,9 @@ public class MenuActivity extends AppCompatActivity {
 
         loadFrament(inicioFragment);
     }
+    /**
+     * BottomNavigationView que permite cambiar entre fragmentos de vistas (Inicio, Perfil, Categorias)
+     * */
     private final BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -43,6 +46,9 @@ public class MenuActivity extends AppCompatActivity {
         }
     };
 
+    /**
+     * Funcion encargada de carga cada uno de los fragmentos solicitados
+     * */
     public void loadFrament(Fragment fragment){
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.container,fragment);

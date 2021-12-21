@@ -7,7 +7,9 @@ public class ListLibro {
     public String categoria;
     public String descripcion;
     public int imagen;
-
+    /**
+     * Clase que crea cada objeto Libro
+     * */
     public ListLibro(String nombre, String autor, String editorial, String categoria, String descripcion, int imagen ) {
         this.nombre = nombre;
         this.autor = autor;

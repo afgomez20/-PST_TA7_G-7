@@ -11,7 +11,9 @@ import android.view.WindowManager;
 import java.time.Duration;
 
 public class SplashActivity extends AppCompatActivity {
-
+    /**
+     * Activity splash que espera a que cargue la aplicacion 2 segundos
+     * */
     private final int DURACION_SPLASH = 2000;
 
     @Override

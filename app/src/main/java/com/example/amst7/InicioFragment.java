@@ -15,30 +15,11 @@ import com.example.amst7.clases.ListLibro;
 
 import java.util.ArrayList;
 
-import android.app.Activity;
-import android.app.AppComponentFactory;
-import android.content.Context;
-import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.amst7.MenuActivity;
-//import com.example.amst7.Interfaces.IComunicarFragments;
-import com.example.amst7.clases.ListLibro;
-import com.example.amst7.clases.LibroAdapter;
 import com.example.amst7.clases.Data;
-import com.example.amst7.R;
 
 import java.util.ArrayList;
 
@@ -57,7 +38,7 @@ public class InicioFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    //Clases libros y adaptador
     LibroAdapter libros;
     RecyclerView recyclerView;
     ArrayList<ListLibro> librosList;
@@ -97,7 +78,9 @@ public class InicioFragment extends Fragment {
     public void onDetach() {
         super.onDetach();
     }
-
+   /**
+    * Funcion q muestra el view del Inicio
+    * */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -111,13 +94,18 @@ public class InicioFragment extends Fragment {
         mostrarDatos();
         return v;
     }
+    /**
+     * Funcion que se encarga de cargar la lista de datos de la clase Data y convertirlas en objeto librosList
+     * */
 
     public void cargarLista(){
         for(int i=0;i<Data.libros.length;i++){
             librosList.add(new ListLibro(Data.libros[i][0],Data.libros[i][1],Data.libros[i][2],Data.libros[i][3],Data.libros[i][4],Data.librosImg[i]));
         }
     }
-
+    /**
+     * Funcion en cargada de mostrar los datos necesarios para el cardview
+     * */
     public void mostrarDatos(){
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         libros = new LibroAdapter(getContext(), librosList);
@@ -127,7 +115,6 @@ public class InicioFragment extends Fragment {
             public void onClick(View view) {
                 String titulo = librosList.get(recyclerView.getChildAdapterPosition(view)).getNombre();
                 Toast.makeText(getContext(), "Seleccionaste: "+titulo, Toast.LENGTH_SHORT).show();
-                //icFragments.enviarDatosLibros(librosArr.get(recyclerView.getChildAdapterPosition(view)));
             }
         });
     }

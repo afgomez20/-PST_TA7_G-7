@@ -3,6 +3,9 @@ package com.example.amst7.clases;
 import com.example.amst7.R;
 
 public class Data {
+    /**
+     * Base de datos porvisional del sistema
+     * */
     /*libros = {Nombre, autor, editorial, categoria, descripcion}*/
     public static final String[][] libros = {
             {"Orgullo y prejuicio","Jane Austen", "Alianza","Romance","La señora Bennet ha criado a sus cinco hijas con el único deseo de encontrar marido. La llegada al vecindario de Charles Bingley, un joven rico y soltero, con algunas amistades despierta el interés de las hermanas Bennet y de las familias vecinas, que verán una excelente oportunidad para cumplir su propósito. Elizabeth, una de las hijas de los Bennet, empezará una singular relación con Darcy, uno de los amigos de Bingley, que desencadenará esta historia de orgullo y prejuicios entre los dos hasta llegar a conocer el verdadero amor."},

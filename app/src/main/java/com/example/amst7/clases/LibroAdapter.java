@@ -15,6 +15,9 @@ import com.example.amst7.R;
 import java.util.ArrayList;
 
 public class LibroAdapter extends RecyclerView.Adapter<LibroAdapter.ViewHolder> implements View.OnClickListener{
+    /**
+     * Adaptador para el RecyclerView
+     * */
     ArrayList<ListLibro> modelo;
     LayoutInflater inflater;
 
